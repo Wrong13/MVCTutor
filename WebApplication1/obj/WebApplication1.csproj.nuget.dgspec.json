@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/wrong/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj": {}
+    "/home/wrong/RiderProjects/MVCTutor/WebApplication1/WebApplication1.csproj": {}
   },
   "projects": {
-    "/home/wrong/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj": {
+    "/home/wrong/RiderProjects/MVCTutor/WebApplication1/WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wrong/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj",
+        "projectUniqueName": "/home/wrong/RiderProjects/MVCTutor/WebApplication1/WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "/home/wrong/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj",
+        "projectPath": "/home/wrong/RiderProjects/MVCTutor/WebApplication1/WebApplication1.csproj",
         "packagesPath": "/home/wrong/.nuget/packages/",
-        "outputPath": "/home/wrong/RiderProjects/WebApplication1/WebApplication1/obj/",
+        "outputPath": "/home/wrong/RiderProjects/MVCTutor/WebApplication1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wrong/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/var/run/host/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }
